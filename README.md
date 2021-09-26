@@ -46,7 +46,7 @@ Notes:
         
   What happens in the user funcs is out of the control of scheduler. 
   The passed funcs are called at the appropriate times and then they have
-  control; if you want the game loop o keep updating at a certain rate, 
+  control; if you want the game loop to keep updating at a certain rate, 
   it's up to you to make sure that the funcs allow this.
         
   If a func takes no args, pass () for the args_tuple.
